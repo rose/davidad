@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Davidad > Norris",
+  "version": "1.0",
+  "description": "Improves the accuracy of Chuck Norris jokes.",
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["src.js"],
+    "run_at": "document_end"
+  }]
+}
